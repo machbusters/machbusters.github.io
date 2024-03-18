@@ -1,8 +1,9 @@
 function setup() {
   createCanvas(400, 400);
+  loadImage('e3535c72855cb0b0819b75aa3e6fb2fe1866972a.webp',draw);
 }
 
-function draw() {
+function draw(img) {
   background(220);
-  line(0, 0, 200, 200);
+  image(img,0,0)
 }
