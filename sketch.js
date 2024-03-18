@@ -4,5 +4,5 @@ function preload(){
 }
 function setup() {
   createCanvas(500, 500);
-  image(img)
+  image(img,20,20)
 }
