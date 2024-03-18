@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(1000, 1000);
   loadImage('e3535c72855cb0b0819b75aa3e6fb2fe1866972a.webp',draw);
 }
 
