@@ -4,5 +4,5 @@ function setup() {
 }
 
 function draw(img) {
-  image(img,400,400,1000,1000);
+  image(img,250,250,1000,1000);
 }
