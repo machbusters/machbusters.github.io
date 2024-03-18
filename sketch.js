@@ -6,4 +6,5 @@ function setup() {
 function draw(img) {
   img.resize(400,400);
   image(img,500,500);
+  draw(img)
 }
