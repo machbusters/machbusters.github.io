@@ -5,6 +5,6 @@ function setup() {
 
 function draw(img) {
   background(1000)
-  img.resize(100,100)
+  img.resize(500,500)
   image(img,250,250)
 }
