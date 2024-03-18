@@ -5,5 +5,5 @@ function setup() {
 
 function draw(img) {
   background(1000)
-  image(img,250,250)
+  image(img,500,500)
 }
