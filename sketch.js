@@ -4,7 +4,6 @@ function setup() {
 }
 
 function draw(img) {
-  background(1000);
   img.resize(400,400);
   image(img,500,500);
 }
