@@ -10,6 +10,26 @@ canvas {
 #field {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 70%;
   transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+}
+#note1{
+  position: absolute;
+  left: 1%;
+  top:80%;
+  
+}
+#textbox1{
+  position: absolute;
+  left: 3%;
+  top:80%;
+
+}
+.note{
+  display: inline-block;
+}
+.note span{
+ margin-left: 5px; 
 }
