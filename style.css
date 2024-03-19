@@ -6,3 +6,10 @@ html, body {
 canvas {
   display: block;
 }
+
+#field {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
