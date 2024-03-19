@@ -6,6 +6,16 @@
 
     <title>Sketch</title>
 
+    <style>
+      #object1{
+        width: 600;
+        height: 400;
+        background-color: green;
+        object-fit: none;
+        object-position: center bottom;
+      }
+    </style>
+
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <script src="libraries/p5.min.js"></script>
@@ -13,7 +23,7 @@
   </head>
 
   <body>
-    <img src ="2160xDark.jpg" width="500" height="400"> </img>
+    <img id="object1" src ="2160xDark.jpg" > </img>
     <script src="sketch.js"></script>
   </body>
 </html>
