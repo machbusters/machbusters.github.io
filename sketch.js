@@ -15,7 +15,7 @@ function draw() {
     thePoints.push(createVector(mouseX, mouseY));
   }
 
-  for (let index in points) {
-    point(thePointsoints[index]);
+  for (let index in thePoints) {
+    point(thePoints[index]);
   }
 }
