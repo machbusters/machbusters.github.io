@@ -10,7 +10,7 @@ getValueButton.addEventListener('click', function (){
 }});
 
 function setup() {
-  createCanvas(1000, 1000)
+  createCanvas(1000, 1000);
 }
 
 var thePoints = [];
