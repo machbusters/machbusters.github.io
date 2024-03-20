@@ -9,13 +9,13 @@ getValueButton.addEventListener('click', function (){
   } 
 }});
 
-points = [];
+var thePoints = [];
 function draw() {
   if(mouseIsPressed) {
-    points.push(createVector(mouseX, mouseY));
+    thePoints.push(createVector(mouseX, mouseY));
   }
 
   for (let index in points) {
-    point(points[index]);
+    point(thePointsoints[index]);
   }
 }
