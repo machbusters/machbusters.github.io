@@ -9,6 +9,10 @@ getValueButton.addEventListener('click', function (){
   } 
 }});
 
+function setup() {
+  createCanvas(1000, 1000)
+}
+
 var thePoints = [];
 function draw() {
   if(mouseIsPressed) {
