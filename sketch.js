@@ -15,6 +15,7 @@ function setup() {
 
 var thePoints = [];
 function draw() {
+  background(220);
   if(mouseIsPressed) {
     thePoints.push(createVector(mouseX, mouseY));
   }
